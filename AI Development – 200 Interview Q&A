@@ -1,0 +1,422 @@
+AI Development – 200 Interview Q&A
+
+Section 1: Basics of AI Development (Q1–Q40)
+Q1. What is Artificial Intelligence (AI)?
+ A: AI is the simulation of human intelligence in machines to perform reasoning, problem-solving, and learning tasks.
+Q2. What are the main types of AI?
+ A: Narrow AI, General AI, and Artificial Superintelligence.
+Q3. How is AI different from ML and DL?
+ A: AI is broad, ML is a subset focused on learning from data, DL is a subset of ML using neural networks.
+Q4. What are key stages in AI development?
+ A: Data collection, preprocessing, model selection, training, evaluation, deployment.
+Q5. What are the most common languages for AI development?
+ A: Python, R, Java, C++, Julia.
+Q6. Name major AI frameworks.
+ A: TensorFlow, PyTorch, Scikit-learn, Keras, MXNet.
+Q7. What is an AI model?
+ A: A trained mathematical representation mapping input data to outputs.
+Q8. Difference between supervised, unsupervised, and reinforcement learning?
+ A:
+Supervised: labeled data.
+
+
+Unsupervised: no labels.
+
+
+Reinforcement: trial and error via rewards.
+
+
+Q9. Common applications of AI?
+ A: Chatbots, computer vision, fraud detection, recommendations, self-driving cars.
+Q10. What is NLP?
+ A: Natural Language Processing enables machines to understand and generate human language.
+Q11. What is computer vision?
+ A: AI that extracts information from images/videos.
+Q12. What are intelligent agents?
+ A: Systems that perceive environment and take actions to achieve goals.
+Q13. What is symbolic AI?
+ A: Rule-based reasoning using symbols and logic.
+Q14. What is statistical AI?
+ A: AI that uses probability and data-driven methods.
+Q15. What are expert systems?
+ A: AI systems using rule-based knowledge for decision-making.
+Q16. What is the Turing Test?
+ A: A measure of machine intelligence: if humans can’t distinguish machine responses from human ones.
+Q17. What is a knowledge graph?
+ A: A structured representation of entities and their relationships.
+Q18. What are AI agents in robotics?
+ A: Robots using AI to perceive, plan, and act autonomously.
+Q19. What are AI chips?
+ A: Hardware optimized for AI (e.g., GPUs, TPUs).
+Q20. What is cognitive computing?
+ A: AI that mimics human thought processes for decision-making.
+Q21. What is weak AI vs strong AI?
+ A: Weak = task-specific, Strong = human-like general intelligence.
+Q22. What is artificial superintelligence (ASI)?
+ A: AI surpassing human intelligence across all domains.
+Q23. What is the difference between deterministic and probabilistic AI?
+ A: Deterministic = fixed rules, Probabilistic = uncertainty handling.
+Q24. What are AI heuristics?
+ A: Approximations used for problem-solving when exact methods are impractical.
+Q25. What are intelligent assistants?
+ A: AI-driven virtual assistants like Siri, Alexa, Google Assistant.
+Q26. What is AI bias?
+ A: Systematic error due to biased training data.
+Q27. What is explainability in AI?
+ A: Ability to interpret AI decision-making.
+Q28. What is AI model generalization?
+ A: Ability of a model to perform well on unseen data.
+Q29. What is AI scalability?
+ A: Ability to handle larger datasets and complex problems.
+Q30. What are AI APIs?
+ A: Pre-built AI services accessible via APIs (e.g., Google Vision API).
+Q31. What is AI in IoT?
+ A: Using AI on connected IoT devices for automation.
+Q32. What is swarm intelligence?
+ A: AI inspired by collective behaviors of groups like ants or birds.
+Q33. What is an intelligent tutoring system?
+ A: AI-powered personalized learning system.
+Q34. What is reinforcement signal in AI?
+ A: Feedback in RL indicating success/failure.
+Q35. What is the difference between deterministic and stochastic AI models?
+ A: Deterministic = same output always, Stochastic = includes randomness.
+Q36. What is symbolic vs sub-symbolic AI?
+ A: Symbolic = rules/logic, Sub-symbolic = neural networks.
+Q37. What is the role of data in AI?
+ A: Data fuels training, testing, and evaluation of AI.
+Q38. What are intelligent knowledge bases?
+ A: Databases enriched with AI for reasoning and queries.
+Q39. What is autonomous AI?
+ A: AI that can operate independently without human intervention.
+Q40. What is hybrid AI?
+ A: Combining symbolic reasoning with ML/DL methods.
+
+Section 2: Machine Learning Development (Q41–Q80)
+Q41. What is a dataset?
+ A: A structured collection of data for training and testing models.
+Q42. What is labeled data?
+ A: Data with input-output pairs.
+Q43. What is unlabeled data?
+ A: Data without predefined outcomes.
+Q44. What is a training dataset?
+ A: Data used to teach the model.
+Q45. What is a validation dataset?
+ A: Data used for hyperparameter tuning.
+Q46. What is a test dataset?
+ A: Data for final model evaluation.
+Q47. What is overfitting?
+ A: Model fits training data too closely, fails on new data.
+Q48. What is underfitting?
+ A: Model too simple, fails to capture patterns.
+Q49. What is regularization?
+ A: Technique to reduce overfitting (L1, L2, dropout).
+Q50. What is cross-validation?
+ A: Splitting data into multiple folds for better evaluation.
+Q51. What is feature engineering?
+ A: Creating meaningful input features.
+Q52. What is feature selection?
+ A: Choosing the most relevant features.
+Q53. What is PCA?
+ A: Principal Component Analysis for dimensionality reduction.
+Q54. What is clustering?
+ A: Grouping similar data points (K-means, DBSCAN).
+Q55. What is classification?
+ A: Predicting discrete categories.
+Q56. What is regression?
+ A: Predicting continuous values.
+Q57. What is reinforcement learning?
+ A: Learning through rewards/penalties.
+Q58. What is semi-supervised learning?
+ A: Uses both labeled and unlabeled data.
+Q59. What is online learning?
+ A: Model updates continuously with new data.
+Q60. What is batch learning?
+ A: Training with fixed dataset in bulk.
+Q61. What is the difference between parametric and non-parametric models?
+ A: Parametric = fixed parameters, Non-parametric = flexible, grows with data.
+Q62. What is a confusion matrix?
+ A: Table showing classification results (TP, FP, TN, FN).
+Q63. What is accuracy?
+ A: Correct predictions ÷ total predictions.
+Q64. What is precision?
+ A: True Positives ÷ (True Positives + False Positives).
+Q65. What is recall?
+ A: True Positives ÷ (True Positives + False Negatives).
+Q66. What is F1 score?
+ A: Harmonic mean of precision and recall.
+Q67. What is ROC curve?
+ A: Graph showing trade-off between sensitivity and specificity.
+Q68. What is AUC?
+ A: Area under ROC curve.
+Q69. What is k-fold cross-validation?
+ A: Dividing data into k subsets for training/testing.
+Q70. What is ensemble learning?
+ A: Combining multiple models (bagging, boosting).
+Q71. What is bagging?
+ A: Training multiple models on random subsets and averaging.
+Q72. What is boosting?
+ A: Sequentially training weak models to correct errors.
+Q73. What is random forest?
+ A: Ensemble of decision trees.
+Q74. What is gradient boosting?
+ A: Boosting with gradient descent optimization.
+Q75. What is XGBoost?
+ A: Efficient gradient boosting framework.
+Q76. What is LightGBM?
+ A: Gradient boosting library optimized for speed.
+Q77. What is CatBoost?
+ A: Gradient boosting framework for categorical features.
+Q78. What is transfer learning in ML?
+ A: Using knowledge from one model for another task.
+Q79. What is anomaly detection?
+ A: Identifying unusual patterns in data.
+Q80. What is reinforcement signal shaping?
+ A: Modifying reward functions to guide learning.
+
+Section 3: Deep Learning Development (Q81–Q120)
+Q81. What is a neural network?
+ A: A network of layers of interconnected neurons processing input data.
+Q82. What are weights and biases in neural nets?
+ A: Parameters adjusted during training to fit data.
+Q83. What is an activation function?
+ A: Function that introduces non-linearity (ReLU, Sigmoid).
+Q84. What is backpropagation?
+ A: Algorithm to update weights using error gradients.
+Q85. What is a CNN?
+ A: Convolutional Neural Network for images.
+Q86. What is an RNN?
+ A: Recurrent Neural Network for sequences.
+Q87. What is LSTM?
+ A: Long Short-Term Memory network handling long dependencies.
+Q88. What is GRU?
+ A: Gated Recurrent Unit, simpler than LSTM.
+Q89. What is an attention mechanism?
+ A: Focuses on important input parts.
+Q90. What is a transformer model?
+ A: Deep learning architecture using self-attention (e.g., GPT, BERT).
+Q91. What is an embedding?
+ A: Dense vector representation of data.
+Q92. What is a word2vec model?
+ A: Method to generate word embeddings.
+Q93. What is a seq2seq model?
+ A: Sequence-to-sequence model for translation.
+Q94. What is a language model?
+ A: Model predicting word probabilities in a sequence.
+Q95. What are GANs?
+ A: Generative Adversarial Networks with generator/discriminator.
+Q96. What is variational autoencoder?
+ A: Autoencoder with probabilistic latent space.
+Q97. What is dropout?
+ A: Regularization method randomly disabling neurons.
+Q98. What is batch normalization?
+ A: Technique to stabilize and speed up training.
+Q99. What is gradient vanishing?
+ A: When gradients shrink in deep nets, slowing learning.
+Q100. What is gradient exploding?
+ A: Large gradients destabilizing training.
+Q101. What is skip connection?
+ A: Bypassing layers to improve gradient flow (ResNet).
+Q102. What is residual network?
+ A: Deep net with skip connections.
+Q103. What is inception network?
+ A: Network using multiple convolution filters in parallel.
+Q104. What is object detection?
+ A: Locating and classifying objects in images.
+Q105. What is image segmentation?
+ A: Dividing image into meaningful regions.
+Q106. What is pose estimation?
+ A: Detecting human body positions.
+Q107. What is speech recognition?
+ A: Converting speech to text.
+Q108. What is text-to-speech (TTS)?
+ A: Generating human-like speech from text.
+Q109. What is reinforcement learning with neural nets called?
+ A: Deep Reinforcement Learning.
+Q110. What is AlphaGo?
+ A: DeepMind’s AI that beat human champions in Go.
+Q111. What are diffusion models?
+ A: Generative models for image synthesis (e.g., Stable Diffusion).
+Q112. What is neural architecture search?
+ A: Automating design of neural networks.
+Q113. What is multimodal learning?
+ A: AI combining text, image, and audio inputs.
+Q114. What are large language models (LLMs)?
+ A: Models with billions of parameters trained on text data.
+Q115. What is prompt engineering?
+ A: Crafting effective inputs to guide AI responses.
+Q116. What is fine-tuning?
+ A: Adjusting pre-trained models for specific tasks.
+Q117. What is quantization in deep learning?
+ A: Reducing model size by lowering precision of weights.
+Q118. What is pruning?
+ A: Removing unnecessary neurons to shrink model.
+Q119. What is knowledge distillation?
+ A: Training a smaller model using a larger one’s outputs.
+Q120. What is zero-shot learning?
+ A: Solving tasks without prior task-specific training.
+
+Section 4: AI Tools & Development Lifecycle (Q121–Q160)
+Q121. What is MLOps?
+ A: Practices for managing ML lifecycle.
+Q122. What is CI/CD for ML?
+ A: Continuous integration/deployment in ML workflows.
+Q123. What is data preprocessing?
+ A: Cleaning and preparing data.
+Q124. What is data augmentation?
+ A: Expanding dataset with transformations.
+Q125. What is synthetic data?
+ A: Artificially generated training data.
+Q126. What is feature scaling?
+ A: Normalizing data ranges.
+Q127. What is hyperparameter tuning?
+ A: Optimizing learning rate, batch size, etc.
+Q128. What are AutoML tools?
+ A: Automated machine learning (e.g., H2O.ai, AutoKeras).
+Q129. What is transfer learning pipeline?
+ A: Reusing pre-trained models in workflows.
+Q130. What is federated learning?
+ A: Collaborative model training without centralizing data.
+Q131. What is edge AI?
+ A: Running models on edge devices.
+Q132. What are AI APIs?
+ A: Services exposing pre-trained models.
+Q133. What is explainable AI (XAI)?
+ A: Tools making model outputs interpretable.
+Q134. What is SHAP?
+ A: SHapley Additive exPlanations for model interpretation.
+Q135. What is LIME?
+ A: Local Interpretable Model-agnostic Explanations.
+Q136. What is AI observability?
+ A: Monitoring and debugging AI systems.
+Q137. What is model drift?
+ A: Degradation of performance over time due to data change.
+Q138. What is data drift?
+ A: Change in input data distribution.
+Q139. What is concept drift?
+ A: Change in target-label relationship.
+Q140. What is retraining pipeline?
+ A: Automated updating of AI models with new data.
+Q141. What is AI model deployment?
+ A: Making models available via APIs or apps.
+Q142. What is A/B testing in AI?
+ A: Comparing model versions.
+Q143. What is canary deployment?
+ A: Gradual rollout of models.
+Q144. What is shadow deployment?
+ A: Testing new models in parallel with old ones.
+Q145. What is model versioning?
+ A: Tracking different iterations of models.
+Q146. What is MLflow?
+ A: Open-source MLOps tool.
+Q147. What is Kubeflow?
+ A: ML workflow orchestration on Kubernetes.
+Q148. What is Airflow in AI pipelines?
+ A: Workflow scheduler for pipelines.
+Q149. What is DVC?
+ A: Data Version Control for datasets/models.
+Q150. What is data labeling?
+ A: Annotating raw data for supervised training.
+Q151. What is active learning?
+ A: Model queries humans to label uncertain samples.
+Q152. What is reinforcement learning in production?
+ A: Optimizing business workflows dynamically.
+Q153. What is differential privacy in AI?
+ A: Ensuring individual data privacy in training.
+Q154. What is homomorphic encryption in AI?
+ A: Running computations on encrypted data.
+Q155. What is secure multi-party computation?
+ A: Collaborative ML without revealing private data.
+Q156. What is synthetic monitoring?
+ A: Simulating interactions to test AI systems.
+Q157. What is adversarial testing?
+ A: Testing AI against adversarial inputs.
+Q158. What is red teaming AI?
+ A: Stress-testing AI security.
+Q159. What is model governance?
+ A: Policies ensuring responsible AI use.
+Q160. What is continuous monitoring in AI?
+ A: Tracking performance, fairness, and drift post-deployment.
+
+Section 5: Ethics, Challenges & Future of AI (Q161–Q200)
+Q161. What are ethical issues in AI?
+ A: Bias, privacy, transparency, job displacement.
+Q162. What is AI fairness?
+ A: Ensuring equal treatment across demographics.
+Q163. What is AI accountability?
+ A: Responsibility for AI decisions.
+Q164. What is AI transparency?
+ A: Openly explaining model logic.
+Q165. What are black-box models?
+ A: Models with decisions hard to interpret.
+Q166. What are white-box models?
+ A: Models that are inherently interpretable.
+Q167. What is bias in AI datasets?
+ A: Skewed data leading to unfair outcomes.
+Q168. How can bias be mitigated?
+ A: Balanced datasets, fairness-aware algorithms.
+Q169. What is ethical AI design?
+ A: Building fairness, accountability, transparency into systems.
+Q170. What is responsible AI?
+ A: Ensuring AI aligns with human values.
+Ethics, Challenges & Future of AI (Q171–Q200)
+Q171. What is the role of government in AI regulation?
+ A: Governments set policies, standards, and ethical guidelines for responsible AI use.
+Q172. What is the EU AI Act?
+ A: A regulatory framework categorizing AI by risk levels to ensure safety and fairness.
+Q173. What is explainable AI (XAI) in ethics?
+ A: Providing clear reasoning for model predictions to build trust.
+Q174. What is algorithmic transparency?
+ A: Disclosing how AI algorithms work, their data, and decision logic.
+Q175. What is AI safety?
+ A: Ensuring AI systems operate without causing harm.
+Q176. What is adversarial AI?
+ A: AI systems that can be attacked or fooled by manipulated inputs.
+Q177. What are adversarial examples?
+ A: Slightly modified inputs that cause AI models to misclassify.
+Q178. What is AI robustness?
+ A: Ability of AI models to perform reliably under varied conditions.
+Q179. What is AI interpretability vs. explainability?
+ A: Interpretability = easy to understand by design, Explainability = post-hoc explanation.
+Q180. What is the alignment problem in AI?
+ A: Ensuring AI goals remain aligned with human values.
+Q181. What is AI governance?
+ A: Oversight structures to manage risks and responsibilities of AI.
+Q182. What is AI audit?
+ A: Independent evaluation of AI for fairness, bias, and compliance.
+Q183. What is ethical data collection?
+ A: Gathering data with consent, privacy, and fairness in mind.
+Q184. What is AI sustainability?
+ A: Designing AI with minimal environmental impact.
+Q185. What is AI and job displacement?
+ A: Automation replacing certain roles while creating new ones.
+Q186. What are AI-human collaboration models?
+ A: Systems where AI augments human work rather than replacing it.
+Q187. What is human-in-the-loop AI?
+ A: Humans actively involved in training, monitoring, or decision-making.
+Q188. What is autonomous AI risk?
+ A: Fully independent AI may act unpredictably or harmfully.
+Q189. What are killer robots in AI discussions?
+ A: Lethal autonomous weapons raising ethical concerns.
+Q190. What is AI misuse risk?
+ A: Using AI for disinformation, fraud, cyberattacks.
+Q191. What is AI ethics in healthcare?
+ A: Ensuring fairness, privacy, and safety in medical AI tools.
+Q192. What is AI ethics in finance?
+ A: Preventing bias in lending, fraud detection, and trading AI.
+Q193. What is AI ethics in hiring?
+ A: Preventing discrimination in recruitment AI.
+Q194. What are global challenges in AI development?
+ A: Regulation, inequality, bias, misuse, and international competition.
+Q195. What is AGI (Artificial General Intelligence)?
+ A: AI with human-level cognitive abilities across all domains.
+Q196. What is the Singularity?
+ A: Hypothetical future when AI surpasses human intelligence.
+Q197. What are opportunities of AGI?
+ A: Solving global problems, accelerating science, economic growth.
+Q198. What are risks of AGI?
+ A: Loss of control, ethical dilemmas, existential risks.
+Q199. What is the future of AI development?
+ A: More automation, multimodal AI, explainability, and human-AI collaboration.
+Q200. What skills are critical for future AI developers?
+ A: ML/DL expertise, data science, ethics, deployment, cloud computing, and continuous learning.
+
